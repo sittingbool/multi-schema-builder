@@ -1,25 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "removeComments": true,
-    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
-    "declaration":true,
+    "lib": ["es2021"],
+    "module": "ES2020",
+    "moduleResolution": "Node",
     "outDir": "dist",
-    "rootDirs": ["src", "test"]
+    "removeComments": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "target": "es2021"
   },
-  "typeRoots": [
-    "node_modules/@types"
-  ],
-  "include": [
-    "src/**/*",
-    "test/**/*"
-  ],
   "exclude":[
     "bin",
-    "node_nodules",
-    "test-templates",
-    "test-output"
+    "node_nodules"
   ]
 }

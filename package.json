@@ -1,0 +1,44 @@
+{
+  "name": "multi-schema-builder",
+  "version": "1.0.0",
+  "description": "build different model definitions and schemas from one source",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha dist/tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sittingbool/multi-schema-builder.git"
+  },
+  "keywords": [
+    "schema",
+    "model",
+    "fastify",
+    "mongoose",
+    "ajv"
+  ],
+  "author": "Richard Habermann <chief@sittingbool.tech>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sittingbool/multi-schema-builder/issues"
+  },
+  "homepage": "https://github.com/sittingbool/multi-schema-builder#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "sb-util-ts": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/diff": "^5.0.2",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.7.13",
+    "@types/prettier": "^2.7.0",
+    "chai": "^4.3.6",
+    "diff": "^5.1.0",
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2"
+  }
+}
